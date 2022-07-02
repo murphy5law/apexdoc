@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Raleway:wght@600&display=swap');
+.container {
+    max-width: 620px;
+    margin: auto;
+    margin-bottom: 100px;
+    
+    
+
+}
+
+.page  {    
+    background: #F8F8FC;
+}
+.profile {
+    
+display: flex;
+    
+    
+}
+
+.profiletext {
+    margin-left: 26px;
+}
+.profiletext h3 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 100%;
+    color: #064278;
+}
+
+.profilefoto {
+    width: 205px;
+    height: 305px;
+    left: 330px;
+    top: 269px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(171, 185, 233, 0.12);
+}
+
+.description {
+    
+    max-width: 992px;
+    margin: auto;
+    background: #E7EBFF;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+}
+.description h2 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 100%;
+color: #064278;
+padding: 21px 0px 24px 27px;
+
+}
+
+
+.treangle { 
+    list-style-image: url(https://dc-apex.ru/wp-content/uploads/2022/04/accord.png);
+    margin-bottom: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #1A568C;
+}
+.btn    {   
+box-sizing: border-box;
+width: 178px;
+height: 47px;
+left: 561px;
+top: 448px;
+background: linear-gradient(180deg, #FF6F42 0%, #F54912 100%);
+border-radius: 35px;
+}
+
+.accordion__item { 
+    
+    margin: auto;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    max-width: 992px;
+    
+  }
+  
+  .accordion__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: #064278;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 100%;
+    background-color: #E7EBFF;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-out;
+  }
+  
+  .accordion__header::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url("https://dc-apex.ru/wp-content/uploads/2022/04/Vector-29.png");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    content: "";
+  }
+  
+  .accordion__item_show .accordion__header::after {
+    transform: rotate(-180deg);
+  }
+  
+  .accordion__header:hover {
+    background-color: #E7EBFF;
+  }
+  
+  .accordion__item_hidden .accordion__header {
+    border-bottom-right-radius: none;
+    border-bottom-left-radius: none;
+  }
+  
+  .accordion__body {
+    padding: 0.75rem 1rem;
+    overflow: hidden;
+    background: #E7EBFF;
+    color: #1A568C;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .accordion__item:not(.accordion__item_show) .accordion__body {
+    display: none;
+  }
+  .accordion__body li {
+    color: #FF6C3E;
+    padding: 0px 28px 21px 0px;
+  }
+  .accordion__body span {
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #1A568C
+}
